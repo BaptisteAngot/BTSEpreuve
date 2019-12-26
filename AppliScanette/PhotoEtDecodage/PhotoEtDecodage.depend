@@ -1,0 +1,577 @@
+# depslib dependency file v1.0
+1527152197 source:/home/angotb/PhotoEtDecodage/main.cpp
+	<ctime>
+	<fstream>
+	<iostream>
+	<unistd.h>
+	"Decodage.h"
+	"PriseDePhoto.h"
+
+1527152430 source:/home/angotb/PhotoEtDecodage/Decodage.cpp
+	"Decodage.h"
+	<iostream>
+
+1527151805 /home/angotb/PhotoEtDecodage/Decodage.h
+	<string>
+	<Magick++.h>
+	<zbar.h>
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++.h
+	<Magick++/Include.h>
+	<Magick++/Functions.h>
+	<Magick++/Image.h>
+	<Magick++/Pixels.h>
+	<Magick++/ResourceLimits.h>
+	<Magick++/STL.h>
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/Include.h
+	"magick/magick-config.h"
+	"magick-config.h"
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<sys/types.h>
+	<vcl.h>
+	<magick/MagickCore.h>
+	<wand/MagickWand.h>
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/magick-config.h
+	"magick/magick-baseconfig.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/magick-baseconfig.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/MagickCore.h
+	"magick/magick-config.h"
+	"magick-config.h"
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<sys/types.h>
+	<time.h>
+	"magick/method-attribute.h"
+	"magick/methods.h"
+	"magick/magick-type.h"
+	"magick/animate.h"
+	"magick/annotate.h"
+	"magick/artifact.h"
+	"magick/attribute.h"
+	"magick/blob.h"
+	"magick/cache.h"
+	"magick/cache-view.h"
+	"magick/channel.h"
+	"magick/cipher.h"
+	"magick/client.h"
+	"magick/coder.h"
+	"magick/color.h"
+	"magick/colorspace.h"
+	"magick/colormap.h"
+	"magick/compare.h"
+	"magick/composite.h"
+	"magick/compress.h"
+	"magick/configure.h"
+	"magick/constitute.h"
+	"magick/decorate.h"
+	"magick/delegate.h"
+	"magick/deprecate.h"
+	"magick/display.h"
+	"magick/distort.h"
+	"magick/distribute-cache.h"
+	"magick/draw.h"
+	"magick/effect.h"
+	"magick/enhance.h"
+	"magick/exception.h"
+	"magick/feature.h"
+	"magick/fourier.h"
+	"magick/fx.h"
+	"magick/gem.h"
+	"magick/geometry.h"
+	"magick/hashmap.h"
+	"magick/histogram.h"
+	"magick/identify.h"
+	"magick/image.h"
+	"magick/image-view.h"
+	"magick/layer.h"
+	"magick/list.h"
+	"magick/locale_.h"
+	"magick/log.h"
+	"magick/magic.h"
+	"magick/magick.h"
+	"magick/matrix.h"
+	"magick/memory_.h"
+	"magick/module.h"
+	"magick/mime.h"
+	"magick/monitor.h"
+	"magick/montage.h"
+	"magick/morphology.h"
+	"magick/opencl.h"
+	"magick/option.h"
+	"magick/paint.h"
+	"magick/pixel.h"
+	"magick/pixel-accessor.h"
+	"magick/policy.h"
+	"magick/prepress.h"
+	"magick/profile.h"
+	"magick/property.h"
+	"magick/quantize.h"
+	"magick/quantum.h"
+	"magick/registry.h"
+	"magick/random_.h"
+	"magick/resample.h"
+	"magick/resize.h"
+	"magick/resource_.h"
+	"magick/segment.h"
+	"magick/shear.h"
+	"magick/signature.h"
+	"magick/splay-tree.h"
+	"magick/static.h"
+	"magick/stream.h"
+	"magick/statistic.h"
+	"magick/string_.h"
+	"magick/timer.h"
+	"magick/token.h"
+	"magick/transform.h"
+	"magick/threshold.h"
+	"magick/type.h"
+	"magick/utility.h"
+	"magick/version.h"
+	"magick/vision.h"
+	"magick/xml-tree.h"
+	"magick/xwindow.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/method-attribute.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/methods.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/magick-type.h
+	"magick/magick-config.h"
+	<float.h>
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/animate.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/annotate.h
+	"magick/draw.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/draw.h
+	"magick/geometry.h"
+	"magick/image.h"
+	"magick/pixel.h"
+	"magick/type.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/geometry.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/image.h
+	"magick/color.h"
+	"magick/blob.h"
+	"magick/colorspace.h"
+	"magick/cache-view.h"
+	"magick/color.h"
+	"magick/composite.h"
+	"magick/compress.h"
+	"magick/effect.h"
+	"magick/geometry.h"
+	"magick/layer.h"
+	"magick/locale_.h"
+	"magick/monitor.h"
+	"magick/pixel.h"
+	"magick/profile.h"
+	"magick/quantum.h"
+	"magick/resample.h"
+	"magick/resize.h"
+	"magick/semaphore.h"
+	"magick/stream.h"
+	"magick/timer.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/color.h
+	"magick/pixel.h"
+	"magick/exception.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/pixel.h
+	"magick/colorspace.h"
+	"magick/constitute.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/colorspace.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/constitute.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/exception.h
+	<stdarg.h>
+	"magick/semaphore.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/semaphore.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/blob.h
+	"magick/image.h"
+	"magick/stream.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/stream.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/cache-view.h
+	"magick/pixel.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/composite.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/compress.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/effect.h
+	"magick/morphology.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/morphology.h
+	"magick/geometry.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/layer.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/locale_.h
+	"magick/hashmap.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/hashmap.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/monitor.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/profile.h
+	"magick/string_.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/string_.h
+	<stdarg.h>
+	<time.h>
+	"magick/exception.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/quantum.h
+	"magick/image.h"
+	"magick/semaphore.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/resample.h
+	"magick/cache-view.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/resize.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/timer.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/type.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/artifact.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/attribute.h
+	"magick/image.h"
+	"magick/exception.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/cache.h
+	"magick/blob.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/channel.h
+	"magick/image.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/cipher.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/client.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/coder.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/colormap.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/compare.h
+	"magick/image.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/configure.h
+	"magick/hashmap.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/decorate.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/delegate.h
+	<stdarg.h>
+	"magick/semaphore.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/deprecate.h
+	<stdarg.h>
+	"magick/blob.h"
+	"magick/cache-view.h"
+	"magick/draw.h"
+	"magick/constitute.h"
+	"magick/magick-config.h"
+	"magick/pixel.h"
+	"magick/quantize.h"
+	"magick/quantum.h"
+	"magick/registry.h"
+	"magick/semaphore.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/quantize.h
+	"magick/colorspace.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/registry.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/display.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/distort.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/distribute-cache.h
+	"magick/exception.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/enhance.h
+	"magick/pixel.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/feature.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/fourier.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/fx.h
+	"magick/draw.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/gem.h
+	"magick/fx.h"
+	"magick/random_.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/random_.h
+	"magick/string_.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/histogram.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/identify.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/image-view.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/list.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/log.h
+	<stdarg.h>
+	"magick/exception.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/magic.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/magick.h
+	<stdarg.h>
+	"magick/semaphore.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/matrix.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/memory_.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/module.h
+	<time.h>
+	"magick/version.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/version.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/mime.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/montage.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/opencl.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/option.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/paint.h
+	"magick/color.h"
+	"magick/draw.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/pixel-accessor.h
+	<math.h>
+	"magick/gem.h"
+	"magick/pixel.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/policy.h
+	"magick/pixel.h"
+	"magick/exception.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/prepress.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/property.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/resource_.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/segment.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/shear.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/signature.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/splay-tree.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/static.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/statistic.h
+	"magick/draw.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/token.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/transform.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/threshold.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/utility.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/vision.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/xml-tree.h
+	"magick/exception.h"
+	"magick/splay-tree.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/magick/xwindow.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/MagickWand.h
+	"magick/magick-config.h"
+	"magick-config.h"
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<math.h>
+	<sys/types.h>
+	<time.h>
+	"wand/method-attribute.h"
+	"magick/MagickCore.h"
+	"wand/animate.h"
+	"wand/compare.h"
+	"wand/composite.h"
+	"wand/conjure.h"
+	"wand/convert.h"
+	"wand/deprecate.h"
+	"wand/display.h"
+	"wand/drawing-wand.h"
+	"wand/identify.h"
+	"wand/import.h"
+	"wand/magick-property.h"
+	"wand/magick-image.h"
+	"wand/mogrify.h"
+	"wand/montage.h"
+	"wand/pixel-iterator.h"
+	"wand/pixel-wand.h"
+	"wand/stream.h"
+	"wand/wand-view.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/method-attribute.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/animate.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/compare.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/composite.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/conjure.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/convert.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/deprecate.h
+	"wand/drawing-wand.h"
+	"wand/magick-wand.h"
+	"wand/pixel-iterator.h"
+	"wand/pixel-wand.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/drawing-wand.h
+	"wand/pixel-wand.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/pixel-wand.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/magick-wand.h
+	"wand/MagickWand.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/pixel-iterator.h
+	"wand/magick-wand.h"
+	"wand/pixel-wand.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/display.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/identify.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/import.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/magick-property.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/magick-image.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/mogrify.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/montage.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/stream.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/wand/wand-view.h
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/Functions.h
+	"Magick++/Include.h"
+	<string>
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/Image.h
+	"Magick++/Include.h"
+	<string>
+	<list>
+	"Magick++/Blob.h"
+	"Magick++/ChannelMoments.h"
+	"Magick++/Color.h"
+	"Magick++/Drawable.h"
+	"Magick++/Exception.h"
+	"Magick++/Geometry.h"
+	"Magick++/TypeMetric.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/Blob.h
+	"Magick++/Include.h"
+	<string>
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/ChannelMoments.h
+	"Magick++/Include.h"
+	<vector>
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/Color.h
+	"Magick++/Include.h"
+	<string>
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/Drawable.h
+	"Magick++/Include.h"
+	<functional>
+	<string>
+	<list>
+	<utility>
+	"Magick++/Color.h"
+	"Magick++/Geometry.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/Geometry.h
+	"Magick++/Include.h"
+	<string>
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/Exception.h
+	"Magick++/Include.h"
+	<string>
+	<exception>
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/TypeMetric.h
+	"Magick++/Include.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/Pixels.h
+	"Magick++/Include.h"
+	"Magick++/Color.h"
+	"Magick++/Image.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/ResourceLimits.h
+	"Magick++/Include.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/STL.h
+	"Magick++/Include.h"
+	<algorithm>
+	<functional>
+	<iterator>
+	<map>
+	<utility>
+	"Magick++/CoderInfo.h"
+	"Magick++/Drawable.h"
+	"Magick++/Exception.h"
+	"Magick++/Montage.h"
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/CoderInfo.h
+	"Magick++/Include.h"
+	<string>
+
+1521213899 /opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6/Magick++/Montage.h
+	"Magick++/Include.h"
+	<string>
+	"Magick++/Color.h"
+	"Magick++/Geometry.h"
+
+1523015150 /home/angotb/PhotoEtDecodage/PriseDePhoto.h
+	<ctime>
+	<fstream>
+	<iostream>
+	<unistd.h>
+	<raspicam/raspicam.h>
+
+1523015141 source:/home/angotb/PhotoEtDecodage/PriseDePhoto.cpp
+	"PriseDePhoto.h"
+

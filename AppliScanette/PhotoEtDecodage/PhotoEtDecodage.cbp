@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PhotoEtDecodage" />
+		<Option pch_mode="2" />
+		<Option compiler="arm-elf-gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PhotoEtDecodage" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="arm-elf-gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<ExtraCommands>
+					<Add after="scp ${TARGET_OUTPUT_FILE} pi@192.168.190.49:/home/pi" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PhotoEtDecodage" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="arm-elf-gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16" />
+			<Add directory="/opt/rpi_nfs/chaineprod2/opt/chaineprod/include/ImageMagick-6" />
+		</Compiler>
+		<Linker>
+			<Add option="-pthread" />
+			<Add library="pthread" />
+			<Add library="raspicam" />
+			<Add library="mmal_core" />
+			<Add library="mmal_util" />
+			<Add library="mmal" />
+			<Add library="Magick++-6.Q16" />
+			<Add library="MagickWand-6.Q16" />
+			<Add library="MagickCore-6.Q16" />
+			<Add library="vcos" />
+			<Add library="mmal_vc_client" />
+			<Add library="mmal_components" />
+			<Add library="vchiq_arm" />
+			<Add library="vcsm" />
+			<Add library="containers" />
+			<Add library="zbar" />
+		</Linker>
+		<Unit filename="Decodage.cpp" />
+		<Unit filename="Decodage.h" />
+		<Unit filename="PriseDePhoto.cpp" />
+		<Unit filename="PriseDePhoto.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

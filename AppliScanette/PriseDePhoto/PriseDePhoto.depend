@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1521559307 source:/home/angotb/PriseDePhoto/main.cpp
+	<ctime>
+	<fstream>
+	<iostream>
+	<unistd.h>
+	<raspicam/raspicam.h>
+
+1519298067 /opt/rpi_nfs/chaineprod/include/raspicam/raspicam.h
+	<cstdio>
+	<string>
+	"raspicamtypes.h"
+
+1519298067 /opt/rpi_nfs/chaineprod/include/raspicam/raspicamtypes.h
+
