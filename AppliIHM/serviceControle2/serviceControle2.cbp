@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="serviceControle2" />
+		<Option pch_mode="2" />
+		<Option compiler="tdm-gcc-64_compiler" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/serviceControle2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="tdm-gcc-64_compiler" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="boost_system-mgw51-mt-sd-1_65_1" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/serviceControle2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="tdm-gcc-64_compiler" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="boost_system-mgw51-mt-s-1_65_1" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="F:/developpement/x86_64/libraries/boost/include/boost-1_65_1" />
+			<Add directory="F:/developpement/x86_64/libraries/libmodbus/include/modbus" />
+		</Compiler>
+		<Linker>
+			<Add library="modbus" />
+			<Add library="ws2_32" />
+			<Add directory="F:/developpement/x86_64/libraries/boost/lib" />
+			<Add directory="F:/developpement/x86_64/libraries/libmodbus/lib" />
+		</Linker>
+		<Unit filename="boitier.cpp" />
+		<Unit filename="boitier.h" />
+		<Unit filename="commJSONRPC.cpp" />
+		<Unit filename="commJSONRPC.h" />
+		<Unit filename="commMachine.cpp" />
+		<Unit filename="commMachine.h" />
+		<Unit filename="commModbus.cpp" />
+		<Unit filename="commModbus.h" />
+		<Unit filename="lot.cpp" />
+		<Unit filename="lot.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="optimiserProduction.cpp" />
+		<Unit filename="optimiserProduction.h" />
+		<Unit filename="productionPersonnalise.cpp" />
+		<Unit filename="productionPersonnalise.h" />
+		<Unit filename="traitement.cpp" />
+		<Unit filename="traitement.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
